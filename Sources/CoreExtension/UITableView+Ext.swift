@@ -48,7 +48,7 @@ extension UITableView {
     
 }
 
-public extension UITableViewCell {
+extension UITableViewCell {
     
     public static var identifier: String {
         return String(describing: self)
